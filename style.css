@@ -50,6 +50,35 @@ section h2 {
 	width: 100%;
 }
 
+/* Specialities Section */
+
+.specialities {
+	background-image: linear-gradient(
+			to left,
+			rgba(0, 0, 0, 0.7),
+			rgba(0, 0, 0, 0.7)
+		),
+		url("./assets/b4.jpg");
+}
+
+/* Animate Pizza */
+
+.specialities figure > img {
+	animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+	0%{
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(180deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+
 @media (max-width: 600px) {
 	.about-us img {
 		margin: 1.2rem 0;

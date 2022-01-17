@@ -17,7 +17,7 @@ This is a simple solution to demonstrate working with Javascript objects.
 
 
 ## Links
-- Web Application Link - 
+- Web Application Link - <https://otienotimothy.github.io/lords-table/>
 - Project Repository Link - <https://github.com/otienotimothy/lords-table.git>
 
 ## Setup/Installation Requirements

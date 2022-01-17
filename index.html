@@ -123,7 +123,9 @@
 			</section>
 			<section class="specialities text-center text-light py-4 mb-4">
 				<h2>Our Specialities</h2>
-				<div class="d-flex flex-column flex-md-row align-items-center justify-content-evenly">
+				<div
+					class="d-flex flex-column flex-md-row align-items-center justify-content-evenly"
+				>
 					<figure>
 						<img src="./assets/1.png" alt="Small Pizza" />
 						<figcaption class="fs-4">
@@ -155,7 +157,7 @@
 							<label for="flavour" class="form-label fs-4"
 								>What's Your Pizza Flavour</label
 							>
-							<select name="flavour" id="flavour" class="form-select">
+							<select name="flavour" id="flavour" class="form-select" required>
 								<option value="veg-tikka">Veggie Tikka</option>
 								<option value="chicken-tikka">Chicken Tikka</option>
 								<option value="chicken-mushroom">Chicken and Mushroom</option>
@@ -167,7 +169,7 @@
 							<label for="size" class="form-label fs-4"
 								>What's Desired Pizza Size</label
 							>
-							<select name="size" id="size" class="form-select">
+							<select name="size" id="size" class="form-select" required>
 								<option value="small">Small</option>
 								<option value="medium">Medium</option>
 								<option value="large">Large</option>
@@ -177,7 +179,7 @@
 							<label for="crust" class="form-label fs-4"
 								>What's Your Preferred Pizza Crust</label
 							>
-							<select name="crust" id="crust" class="form-select">
+							<select name="crust" id="crust" class="form-select" required>
 								<option value="thin-crust">Thin Crust @ Ksh. 100</option>
 								<option value="thick-crust">Thick Crust @ Ksh. 150</option>
 								<option value="flatbread-crust">
@@ -189,7 +191,12 @@
 							<label for="toppings" class="form-label fs-4"
 								>What's Your Preferred Pizza Toppings</label
 							>
-							<select name="toppings" id="toppings" class="form-select">
+							<select
+								name="toppings"
+								id="toppings"
+								class="form-select"
+								required
+							>
 								<option value="tomato">Tomato @ Ksh. 80</option>
 								<option value="onions">Onions @ Ksh. 80</option>
 								<option value="mushroom">Mushroom @ Ksh. 80</option>
@@ -213,9 +220,12 @@
 								min="1"
 								value="1"
 								class="form-control"
+								required
 							/>
 						</div>
-						<button class="btn btn-outline-dark fs-5">Proceed to Checkout</button>
+						<button class="btn btn-outline-dark fs-5">
+							Proceed to Checkout
+						</button>
 					</form>
 				</div>
 			</section>

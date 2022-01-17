@@ -1,3 +1,6 @@
+/* Add Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap");
+
 header {
 	height: 85vh;
 	background-image: linear-gradient(
@@ -8,4 +11,12 @@ header {
 		url("./assets/lords-table-bg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.logo > h1 {
+	font-family: "Oleo Script Swash Caps", cursive;
+}
+
+.logo > p {
+    font-size: 1rem;
 }

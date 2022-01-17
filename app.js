@@ -38,20 +38,25 @@ $(function () {
 				(order.pizza.price + order.crust.price + order.toppings.price) *
 				order.quantity;
 
-            if (location){
-                total = total + order.deliveryCharges
-            }
-
-			let message = `Your order of ${order.pizza.flavour} of size ${order.pizza.size} with ${order.crust.crust} and ${order.toppings.toppings} toppings will cost a total of ${total}`;
-
-			let deliveryMsg = `Your order will be delivered to your location at, ${order.location}`;
+            let deliveryMsg;
+			
 
 			if (location) {
-                alert(message);
+				total = total + order.deliveryCharges;
+                deliveryMsg = `Your order will be delivered to your location at, ${order.location}`;
+			}else {
+                deliveryMsg = "";
+            }
+            
+            let message = `Your order of ${order.pizza.flavour} of size ${order.pizza.size} with ${order.crust.crust} and ${order.toppings.toppings} toppings will cost a total of ${total}`;
+
+
+			if (location) {
+			    alert(message);
 				alert(deliveryMsg);
 			}else {
-                alert(message)
-            }
+			    alert(message)
+			}
 		}
 	});
 });

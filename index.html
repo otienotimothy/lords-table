@@ -66,7 +66,9 @@
 			<section class="about-us mb-5">
 				<div class="container text-center">
 					<div class="row g-0">
-						<div class="order col-xs-12 col-md-5 d-flex flex-column justify-content-center align-item-center px-5">
+						<div
+							class="order col-xs-12 col-md-5 d-flex flex-column justify-content-center align-item-center px-5"
+						>
 							<h2>Make Your Order</h2>
 							<p class="py-4">
 								<span>
@@ -77,7 +79,9 @@
 									delivery
 								</span>
 							</p>
-							<button class="align-self-center btn btn-outline-dark">Make Your Order</button>
+							<button class="align-self-center btn btn-outline-dark">
+								Make Your Order
+							</button>
 						</div>
 						<div class="order-img col-xs-12 col-md-7">
 							<img
@@ -93,7 +97,9 @@
 								alt="lord's table premise"
 							/>
 						</div>
-						<div class="about-content col-xs-12 col-md-7 d-flex flex-column justify-content-center align-item-center px-4">
+						<div
+							class="about-content col-xs-12 col-md-7 d-flex flex-column justify-content-center align-item-center px-4"
+						>
 							<h2>About Us</h2>
 							<p>
 								<span>
@@ -115,7 +121,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="specialities text-center text-light py-4">
+			<section class="specialities text-center text-light py-4 mb-4">
 				<h2>Our Specialities</h2>
 				<div class="d-flex align-items-center justify-content-evenly">
 					<figure>
@@ -142,57 +148,76 @@
 				</div>
 			</section>
 			<section class="order">
-				<h2>Make Your Order</h2>
-				<form>
-					<div>
-						<label for="flavour">What's Your Pizza Flavour</label>
-						<select name="flavour" id="flavour">
-							<option value="veg-tikka">Veggie Tikka</option>
-							<option value="chicken-tikka">Chicken Tikka</option>
-							<option value="chicken-mushroom">Chicken and Mushroom</option>
-							<option value="veg-tikka">Veggie Tikka</option>
-							<option value="hawaain">Hawaaian</option>
-						</select>
-					</div>
-					<div>
-						<label for="size">What's Desired Pizza Size</label>
-						<select name="size" id="size">
-							<option value="small">Small</option>
-							<option value="medium">Medium</option>
-							<option value="large">Large</option>
-						</select>
-					</div>
-					<div>
-						<label for="crust">What's Your Preferred Pizza Crust</label>
-						<select name="crust" id="crust">
-							<option value="thin-crust">Thin Crust @ Ksh. 100</option>
-							<option value="thick-crust">Thick Crust @ Ksh. 150</option>
-							<option value="flatbread-crust">
-								Flat Bread Crust @ Ksh. 180
-							</option>
-						</select>
-					</div>
-					<div>
-						<label for="toppings">What's Your Preferred Pizza Toppings</label>
-						<select name="toppings" id="toppings">
-							<option value="tomato">Tomato @ Ksh. 80</option>
-							<option value="onions">Onions @ Ksh. 80</option>
-							<option value="mushroom">Mushroom @ Ksh. 80</option>
-							<option value="green-pepper">Green Pepper @ Ksh. 80</option>
-							<option value="olives">Olives @ Ksh. 120</option>
-							<option value="pineapple">Pineapple @ Ksh. 120</option>
-							<option value="beef-pepperoni">Beef Pepperoni @ Ksh. 170</option>
-							<option value="periperi-chicken">
-								Periperi Chicken @ Ksh. 170
-							</option>
-						</select>
-					</div>
-					<div>
-						<label for="amount">No. of Pizza</label>
-						<input type="number" name="amount" id="amount" min="1" value="1" />
-					</div>
-					<button>Proceed to Checkout</button>
-				</form>
+				<div class="container">
+					<h2 class="text-center mb-4">Make Your Order</h2>
+					<form>
+						<div class="mb-3">
+							<label for="flavour" class="form-label fs-4"
+								>What's Your Pizza Flavour</label
+							>
+							<select name="flavour" id="flavour" class="form-select">
+								<option value="veg-tikka">Veggie Tikka</option>
+								<option value="chicken-tikka">Chicken Tikka</option>
+								<option value="chicken-mushroom">Chicken and Mushroom</option>
+								<option value="veg-tikka">Veggie Tikka</option>
+								<option value="hawaain">Hawaaian</option>
+							</select>
+						</div>
+						<div class="mb-3">
+							<label for="size" class="form-label fs-4"
+								>What's Desired Pizza Size</label
+							>
+							<select name="size" id="size" class="form-select">
+								<option value="small">Small</option>
+								<option value="medium">Medium</option>
+								<option value="large">Large</option>
+							</select>
+						</div>
+						<div class="mb-3">
+							<label for="crust" class="form-label fs-4"
+								>What's Your Preferred Pizza Crust</label
+							>
+							<select name="crust" id="crust" class="form-select">
+								<option value="thin-crust">Thin Crust @ Ksh. 100</option>
+								<option value="thick-crust">Thick Crust @ Ksh. 150</option>
+								<option value="flatbread-crust">
+									Flat Bread Crust @ Ksh. 180
+								</option>
+							</select>
+						</div>
+						<div class="mb-3">
+							<label for="toppings" class="form-label fs-4"
+								>What's Your Preferred Pizza Toppings</label
+							>
+							<select name="toppings" id="toppings" class="form-select">
+								<option value="tomato">Tomato @ Ksh. 80</option>
+								<option value="onions">Onions @ Ksh. 80</option>
+								<option value="mushroom">Mushroom @ Ksh. 80</option>
+								<option value="green-pepper">Green Pepper @ Ksh. 80</option>
+								<option value="olives">Olives @ Ksh. 120</option>
+								<option value="pineapple">Pineapple @ Ksh. 120</option>
+								<option value="beef-pepperoni">
+									Beef Pepperoni @ Ksh. 170
+								</option>
+								<option value="periperi-chicken">
+									Periperi Chicken @ Ksh. 170
+								</option>
+							</select>
+						</div>
+						<div class="mb-3">
+							<label for="amount" class="form-label fs-4">No. of Pizza</label>
+							<input
+								type="number"
+								name="amount"
+								id="amount"
+								min="1"
+								value="1"
+								class="form-control"
+							/>
+						</div>
+						<button class="btn btn-outline-dark fs-5">Proceed to Checkout</button>
+					</form>
+				</div>
 			</section>
 			<footer>
 				<p>Lord's Table | &copy; 2022</p>

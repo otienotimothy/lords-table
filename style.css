@@ -45,6 +45,10 @@ header {
 	width: 100%;
 }
 
+.about-us h2 {
+	font-family: "Oleo Script Swash Caps", cursive;
+}
+
 @media (min-width: 900px) {
 	.main-heading > h1 {
 		font-size: 5rem;

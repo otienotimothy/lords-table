@@ -20,3 +20,27 @@ header {
 .logo > p {
 	font-size: 1rem;
 }
+
+.main-heading > h1 {
+	font-family: "Oleo Script Swash Caps", cursive;
+    font-size: 2.25rem;
+}
+
+.main-heading > h1::after {
+    content: "";
+    display: block;
+    width: 4rem;
+    height: 5px;
+    background-color: #fff;
+    margin-inline: auto;
+}
+
+.main-heading > p {
+    font-size: 1.2rem;
+}
+
+@media (min-width: 900px) {
+	.main-heading > h1 {
+		font-size: 5rem;
+	}
+}

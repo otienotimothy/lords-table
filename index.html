@@ -11,157 +11,177 @@
 			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
 			crossorigin="anonymous"
 		/>
-        <!-- Add CSS Links -->
-        <link rel="stylesheet" href="style.css">
-        <!-- Page Title -->
+		<!-- Add CSS Links -->
+		<link rel="stylesheet" href="style.css" />
+		<!-- Page Title -->
 		<title>Lord's Table | Family, Friends and Pizza</title>
 	</head>
 	<body>
 		<div class="container-fluid">
-			<header>
-			<div class="app-bar">
-				<div class="logo">
+			<header class="text-light">
+				<div></div>
+				<div class="app-bar navbar navbar-expand-lg">
+					<div class="logo navbar-brand">
+						<h1>Lord's Table</h1>
+						<p>Family, Friends and Pizza</p>
+					</div>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNavAltMarkup"
+						aria-controls="navbarNavAltMarkup"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<nav class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+							<a class="nav-link" href="#">About us</a>
+							<a class="nav-link" href="#">Chat to us</a>
+							<a class="nav-link" href="#">Make your Order</a>
+						</div>
+					</nav>
+				</div>
+				<div class="main-heading">
 					<h1>Lord's Table</h1>
 					<p>Family, Friends and Pizza</p>
 				</div>
-				<nav>
-					<ul>
-						<li><a href="#">Make your Order</a></li>
-						<li><a href="#">About us</a></li>
-						<li><a href="#">Chat to us</a></li>
-					</ul>
-				</nav>
-			</div>
-			<div class="main-heading">
-				<h1>Lord's Table</h1>
-				<p>Family, Friends and Pizza</p>
-			</div>
-		</header>
-		<section class="about-us">
-			<div>
-				<div class="order">
-					<h2>Make Your Order</h2>
-					<p>
-						<span> Call us now to order the world's most Amazing Pizza. </span>
-						<span>
-							Orders should ideally be made on the same day you expect the
-							delivery
-						</span>
-					</p>
-					<button>Make Your Order</button>
-				</div>
-				<div class="order-img">
-					<img src="./assets/lord-table-deliver-bg.jpg" alt="order-delivery" />
-				</div>
-			</div>
-			<div>
-				<div class="about-img">
-					<img
-						src="./assets/lord-table-premise.jpg"
-						alt="lord's table premise"
-					/>
-				</div>
-				<div class="about-content">
-					<h2>About Us</h2>
-					<p>
-						<span>
-							Lord's Table Restuarant was opened by the myth, legend and enigma,
-							Timothy Lord Otieno.
-						</span>
-						<span>
-							The restuarant has proven over the years to be the one of the
-							world's best at churning out delicious Pizza to it's loyal
-							customers around the globe.
-						</span>
-						<span>
-							We source our cuisine and some of our ingredients from Italy, the
-							world's 'headquaters' for Pizza, all in the desire give our
-							customers the best experience.
-						</span>
-					</p>
-				</div>
-			</div>
-		</section>
-		<section class="specialities">
-			<h2>Our Specialities</h2>
-			<div>
-				<figure>
-					<img src="./assets/1.png" alt="Small Pizza" />
-					<figcaption>
-						<p>Small size Pizza</p>
-						<p>Ksh 500</p>
-					</figcaption>
-				</figure>
-				<figure>
-					<img src="./assets/2.png" alt="" />
-					<figcaption>
-						<p>Medium size Pizza</p>
-						<p>Ksh 800</p>
-					</figcaption>
-				</figure>
-				<figure>
-					<img src="./assets/3.png" alt="" />
-					<figcaption>
-						<p>Large size Pizza</p>
-						<p>Ksh 1200</p>
-					</figcaption>
-				</figure>
-			</div>
-		</section>
-		<section class="order">
-			<h2>Make Your Order</h2>
-			<form>
+			</header>
+			<section class="about-us">
 				<div>
-					<label for="flavour">What's Your Pizza Flavour</label>
-					<select name="flavour" id="flavour">
-						<option value="veg-tikka">Veggie Tikka</option>
-						<option value="chicken-tikka">Chicken Tikka</option>
-						<option value="chicken-mushroom">Chicken and Mushroom</option>
-						<option value="veg-tikka">Veggie Tikka</option>
-						<option value="hawaain">Hawaaian</option>
-					</select>
+					<div class="order">
+						<h2>Make Your Order</h2>
+						<p>
+							<span>
+								Call us now to order the world's most Amazing Pizza.
+							</span>
+							<span>
+								Orders should ideally be made on the same day you expect the
+								delivery
+							</span>
+						</p>
+						<button>Make Your Order</button>
+					</div>
+					<div class="order-img">
+						<img
+							src="./assets/lord-table-deliver-bg.jpg"
+							alt="order-delivery"
+						/>
+					</div>
 				</div>
 				<div>
-					<label for="size">What's Desired Pizza Size</label>
-					<select name="size" id="size">
-						<option value="small">Small</option>
-						<option value="medium">Medium</option>
-						<option value="large">Large</option>
-					</select>
+					<div class="about-img">
+						<img
+							src="./assets/lord-table-premise.jpg"
+							alt="lord's table premise"
+						/>
+					</div>
+					<div class="about-content">
+						<h2>About Us</h2>
+						<p>
+							<span>
+								Lord's Table Restuarant was opened by the myth, legend and
+								enigma, Timothy Lord Otieno.
+							</span>
+							<span>
+								The restuarant has proven over the years to be the one of the
+								world's best at churning out delicious Pizza to it's loyal
+								customers around the globe.
+							</span>
+							<span>
+								We source our cuisine and some of our ingredients from Italy,
+								the world's 'headquaters' for Pizza, all in the desire give our
+								customers the best experience.
+							</span>
+						</p>
+					</div>
 				</div>
+			</section>
+			<section class="specialities">
+				<h2>Our Specialities</h2>
 				<div>
-					<label for="crust">What's Your Preferred Pizza Crust</label>
-					<select name="crust" id="crust">
-						<option value="thin-crust">Thin Crust @ Ksh. 100</option>
-						<option value="thick-crust">Thick Crust @ Ksh. 150</option>
-						<option value="flatbread-crust">Flat Bread Crust @ Ksh. 180</option>
-					</select>
+					<figure>
+						<img src="./assets/1.png" alt="Small Pizza" />
+						<figcaption>
+							<p>Small size Pizza</p>
+							<p>Ksh 500</p>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="./assets/2.png" alt="" />
+						<figcaption>
+							<p>Medium size Pizza</p>
+							<p>Ksh 800</p>
+						</figcaption>
+					</figure>
+					<figure>
+						<img src="./assets/3.png" alt="" />
+						<figcaption>
+							<p>Large size Pizza</p>
+							<p>Ksh 1200</p>
+						</figcaption>
+					</figure>
 				</div>
-				<div>
-					<label for="toppings">What's Your Preferred Pizza Toppings</label>
-					<select name="toppings" id="toppings">
-						<option value="tomato">Tomato @ Ksh. 80</option>
-						<option value="onions">Onions @ Ksh. 80</option>
-						<option value="mushroom">Mushroom @ Ksh. 80</option>
-						<option value="green-pepper">Green Pepper @ Ksh. 80</option>
-						<option value="olives">Olives @ Ksh. 120</option>
-						<option value="pineapple">Pineapple @ Ksh. 120</option>
-						<option value="beef-pepperoni">Beef Pepperoni @ Ksh. 170</option>
-						<option value="periperi-chicken">
-							Periperi Chicken @ Ksh. 170
-						</option>
-					</select>
-				</div>
-				<div>
-					<label for="amount">No. of Pizza</label>
-					<input type="number" name="amount" id="amount" min="1" value="1" />
-				</div>
-				<button>Proceed to Checkout</button>
-			</form>
-		</section>
-		<footer>
-			<p>Lord's Table | &copy; 2022</p>
-		</footer>
+			</section>
+			<section class="order">
+				<h2>Make Your Order</h2>
+				<form>
+					<div>
+						<label for="flavour">What's Your Pizza Flavour</label>
+						<select name="flavour" id="flavour">
+							<option value="veg-tikka">Veggie Tikka</option>
+							<option value="chicken-tikka">Chicken Tikka</option>
+							<option value="chicken-mushroom">Chicken and Mushroom</option>
+							<option value="veg-tikka">Veggie Tikka</option>
+							<option value="hawaain">Hawaaian</option>
+						</select>
+					</div>
+					<div>
+						<label for="size">What's Desired Pizza Size</label>
+						<select name="size" id="size">
+							<option value="small">Small</option>
+							<option value="medium">Medium</option>
+							<option value="large">Large</option>
+						</select>
+					</div>
+					<div>
+						<label for="crust">What's Your Preferred Pizza Crust</label>
+						<select name="crust" id="crust">
+							<option value="thin-crust">Thin Crust @ Ksh. 100</option>
+							<option value="thick-crust">Thick Crust @ Ksh. 150</option>
+							<option value="flatbread-crust">
+								Flat Bread Crust @ Ksh. 180
+							</option>
+						</select>
+					</div>
+					<div>
+						<label for="toppings">What's Your Preferred Pizza Toppings</label>
+						<select name="toppings" id="toppings">
+							<option value="tomato">Tomato @ Ksh. 80</option>
+							<option value="onions">Onions @ Ksh. 80</option>
+							<option value="mushroom">Mushroom @ Ksh. 80</option>
+							<option value="green-pepper">Green Pepper @ Ksh. 80</option>
+							<option value="olives">Olives @ Ksh. 120</option>
+							<option value="pineapple">Pineapple @ Ksh. 120</option>
+							<option value="beef-pepperoni">Beef Pepperoni @ Ksh. 170</option>
+							<option value="periperi-chicken">
+								Periperi Chicken @ Ksh. 170
+							</option>
+						</select>
+					</div>
+					<div>
+						<label for="amount">No. of Pizza</label>
+						<input type="number" name="amount" id="amount" min="1" value="1" />
+					</div>
+					<button>Proceed to Checkout</button>
+				</form>
+			</section>
+			<footer>
+				<p>Lord's Table | &copy; 2022</p>
+			</footer>
 		</div>
 	</body>
 </html>

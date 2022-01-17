@@ -40,13 +40,14 @@ header {
 	font-size: 1.2rem;
 }
 
+section h2 {
+	font-family: "Oleo Script Swash Caps", cursive;
+	font-size: 2.4rem;
+}
+
 /* About us Section */
 .about-us img {
 	width: 100%;
-}
-
-.about-us h2 {
-	font-family: "Oleo Script Swash Caps", cursive;
 }
 
 @media (max-width: 600px) {

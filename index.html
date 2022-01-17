@@ -155,7 +155,7 @@
 					<form>
 						<div class="mb-3">
 							<label for="flavour" class="form-label fs-4"
-								>What's Your Pizza Flavour</label
+								>What's Your Pizza Flavour?</label
 							>
 							<select name="flavour" id="flavour" class="form-select" required>
 								<option value="veg-tikka">Veggie Tikka</option>
@@ -167,7 +167,7 @@
 						</div>
 						<div class="mb-3">
 							<label for="size" class="form-label fs-4"
-								>What's Desired Pizza Size</label
+								>What's Desired Pizza Size?</label
 							>
 							<select name="size" id="size" class="form-select" required>
 								<option value="small">Small</option>
@@ -177,7 +177,7 @@
 						</div>
 						<div class="mb-3">
 							<label for="crust" class="form-label fs-4"
-								>What's Your Preferred Pizza Crust</label
+								>What's Your Preferred Pizza Crust?</label
 							>
 							<select name="crust" id="crust" class="form-select" required>
 								<option value="thin-crust">Thin Crust @ Ksh. 100</option>
@@ -189,7 +189,7 @@
 						</div>
 						<div class="mb-3">
 							<label for="toppings" class="form-label fs-4"
-								>What's Your Preferred Pizza Toppings</label
+								>What's Your Preferred Pizza Toppings?</label
 							>
 							<select
 								name="toppings"
@@ -219,6 +219,34 @@
 								id="amount"
 								min="1"
 								value="1"
+								class="form-control"
+								required
+							/>
+						</div>
+						<div class="mb-3">
+							<label for="delivery" class="form-label fs-4"
+								>Do you want your order Delivered?
+							</label>
+							<div class="form-check">
+								<input
+									class="form-check-input"
+									type="checkbox"
+									value=""
+									id="flexCheckChecked"
+								/>
+								<label class="form-check-label" for="flexCheckChecked">
+									Yes, I would appreciate a delivery.
+								</label>
+							</div>
+						</div>
+						<div class="mb-3 d-none" id="location">
+							<label for="location" class="form-label fs-4"
+								>Where should we make the Delivery?</label
+							>
+							<input
+								type="text"
+								name="location"
+								id="location"
 								class="form-control"
 								required
 							/>

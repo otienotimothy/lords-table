@@ -1,6 +1,7 @@
 /* Add Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap");
 
+/* Header Section */
 header {
 	height: 85vh;
 	background-image: linear-gradient(
@@ -23,20 +24,25 @@ header {
 
 .main-heading > h1 {
 	font-family: "Oleo Script Swash Caps", cursive;
-    font-size: 2.25rem;
+	font-size: 2.25rem;
 }
 
 .main-heading > h1::after {
-    content: "";
-    display: block;
-    width: 4rem;
-    height: 5px;
-    background-color: #fff;
-    margin-inline: auto;
+	content: "";
+	display: block;
+	width: 4rem;
+	height: 5px;
+	background-color: #fff;
+	margin-inline: auto;
 }
 
 .main-heading > p {
-    font-size: 1.2rem;
+	font-size: 1.2rem;
+}
+
+/* About us Section */
+.about-us img {
+	width: 100%;
 }
 
 @media (min-width: 900px) {

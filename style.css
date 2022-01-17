@@ -49,6 +49,12 @@ header {
 	font-family: "Oleo Script Swash Caps", cursive;
 }
 
+@media (max-width: 600px) {
+	.about-us img {
+		margin: 1.2rem 0;
+	}
+}
+
 @media (min-width: 900px) {
 	.main-heading > h1 {
 		font-size: 5rem;
